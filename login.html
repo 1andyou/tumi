@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./lib/layui/css/layui.css">
+    <link rel="stylesheet" href="./css/login.css">
+</head>
+
+<body>
+    <img id="logo" src="./images/logo.png" alt="">
+
+
+
+    <div class="login">
+        <!-- 标题 -->
+        <div class="title">
+            大事件后台管理系统
+        </div>
+
+        <form class="layui-form" action="">
+            <!-- 用户名 -->
+            <div class="layui-form-item">
+                <i class="layui-icon layui-icon-username"></i>
+                <input type="text" name="username" required lay-verify="required" placeholder="请输入用户名"
+                    autocomplete="off" class="layui-input">
+            </div>
+
+            <!-- 密码框 -->
+            <div class="layui-form-item">
+                <i class="layui-icon layui-icon-password"></i>
+                <input type="password" name="password" required lay-verify="required" placeholder="请输入密码"
+                    autocomplete="off" class="layui-input">
+            </div>
+            <!-- 按钮 -->
+            <div class="layui-form-item">
+                <button class="layui-btn  layui-btn-fluid layui-btn-normal" lay-submit lay-filter="formDemo">登录</button>
+            </div>
+            <!-- 去注册 -->
+            <div class="layui-form-item">
+                <a href="javascript:;">去注册账号</a>
+            </div>
+    </div>
+
+
+    </form>
+    </div>
+
+
+
+    <!--                  huyingjun                        -->
+    <!-- 链入js -->
+    <script src="./lib/layui/layui.all.js"></script>
+    <script src="./lib/jquery.js"></script>
+    <script src="./js/login.js"></script>
+</body>
+
+</html>
